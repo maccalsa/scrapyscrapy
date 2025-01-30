@@ -9,11 +9,15 @@ the app overview is [here](./overview.md)
 
 ## Prerequisites
 
-- Java 21 or later
+- Java Graal 21 or later as an available toolchain
+  -  check with **.\gradlew -q javaToolchains**
+  -  set environment variable **GRAALJDK** if Graal jdk is in a non standard location 
 - Docker and Docker Compose
 - Gradle (wrapper included)
 
 ## Setup
+
+TODO toolchainfix .\gradlew -q javaToolchains
 
 1. Clone the repository:
 
